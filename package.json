@@ -1,6 +1,6 @@
 {
   "name": "reweb",
-  "version": "0.1.4",
+  "version": "0.2.1",
   "description": "Redis-based caching proxy for web pages.",
   "main": "lib/index.js",
   "scripts": {

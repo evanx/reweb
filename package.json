@@ -1,0 +1,31 @@
+{
+  "name": "reweb",
+  "version": "0.1.1",
+  "description": "Redis-based caching proxy for web pages.",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint --cache src",
+    "start": "node --harmony lib/index.js"
+  },
+  "author": {
+    "url": "https://twitter.com/@evanxsummers"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "map-properties": "^0.1.2",
+    "node-fetch": "^1.6.3",
+    "redis-koa-app": "^0.9.11",
+    "render-html-rpf": "^0.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanx/reweb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evanx/reweb/issues"
+  },
+  "homepage": "https://github.com/evanx/reweb#readme"
+}
